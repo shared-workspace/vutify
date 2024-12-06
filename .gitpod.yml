@@ -1,0 +1,15 @@
+image:
+  file: .gitpod.Dockerfile
+
+ports:
+  - name: tigerVNC
+    port: 5900
+    onOpen: ignore
+# vnc
+  - name: noVNC
+    port: 6080
+    onOpen: open-preview
+# vuetify
+  - name: vuetify
+    port: 3000
+    onOpen: open-preview
